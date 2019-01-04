@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">NavigationDrawer</string>
+    <string name="CNM">Cinema near me</string>
+    <string name="PF">Prefered Film</string>
+    <string name="WP">Wifi Password</string>
+    <string name="Notifi">Notification</string>
+    <string name="AU">About Us</string>
+    <string name="LO">Log Out</string>
+    <string name="LG">Login</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="map_api_key">AIzaSyB5WSK_BB8pdJp5D2J53X3haY9oKg3kIsU</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="facebook_app_id">343318522789986</string>
+    <string name="fb_login_protocol_scheme">fb343318522789986</string>
+    <string name="minimum_password">Password too short, enter minimum 6 characters!</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="auth_failed">Authentication failed, check your email and password or sign up</string>
+</resources>

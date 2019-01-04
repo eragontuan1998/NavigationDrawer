@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="267dp"
+    android:background="@drawable/the_arc_cinema_screen"
+    android:orientation="vertical"
+    android:paddingLeft="47dp"
+    android:paddingTop="120dp"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/profilepic"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/user" />
+
+        <TextView
+            android:id="@+id/nameuser"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/profilepic"
+            android:paddingTop="8dp"
+            android:text="User"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/loginText"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/nameuser"
+            android:background="@android:color/transparent"
+            android:paddingTop="8dp"
+            android:text="Login"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+</LinearLayout>
